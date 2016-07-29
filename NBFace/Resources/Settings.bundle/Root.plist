@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>ROSBridge URL</string>
+			<key>Key</key>
+			<string>rosbridge_url</string>
+			<key>DefaultValue</key>
+			<string>ws://10.42.1.1:9090</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Key</key>
+			<string>confidence_threshold</string>
+			<key>DefaultValue</key>
+			<real>0.8</real>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>DefaultValue</key>
+			<string>turtlebot</string>
+			<key>Title</key>
+			<string>Hostname</string>
+			<key>Key</key>
+			<string>hostname</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>DefaultValue</key>
+			<string>-75</string>
+			<key>Title</key>
+			<string>Y Offset</string>
+			<key>Key</key>
+			<string>y_offset</string>
+			<key>KeyboardType</key>
+			<string>NumbersAndPunctuation</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+PODS:
+  - AsyncSwift (1.7.2)
+  - AudioKit (2.2)
+  - FLAnimatedImage (1.0.12)
+  - SocketRocket (0.4.2)
+  - Yaml (1.4.3)
+
+DEPENDENCIES:
+  - AsyncSwift
+  - AudioKit (from `https://github.com/audiokit/AudioKit.git`, branch `develop`)
+  - FLAnimatedImage (~> 1.0)
+  - SocketRocket
+  - Yaml
+
+EXTERNAL SOURCES:
+  AudioKit:
+    :branch: develop
+    :git: https://github.com/audiokit/AudioKit.git
+
+CHECKOUT OPTIONS:
+  AudioKit:
+    :commit: 91d868941b1c559418c32a02915628bc1f498c73
+    :git: https://github.com/audiokit/AudioKit.git
+
+SPEC CHECKSUMS:
+  AsyncSwift: 46a78bceb11f0e5bb52747f740d9692ec78d2d7c
+  AudioKit: 35653982d5ab812430177007d47aa9ea5c4f8977
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  Yaml: 24f9bd96d26ce05fc6925e8d40a44e948e3d5d3d
+
+COCOAPODS: 0.39.0
